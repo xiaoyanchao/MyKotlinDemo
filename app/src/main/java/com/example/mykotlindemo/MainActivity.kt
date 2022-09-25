@@ -3,6 +3,9 @@ package com.example.mykotlindemo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
+import android.widget.Button
+import android.widget.EditText
 import com.example.mykotlindemo.data.Man
 import com.example.mykotlindemo.data.Person
 
@@ -11,6 +14,18 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         initData()
+        var c = findViewById<EditText>(R.id.btn1)
+        //正常语法
+        c.setOnClickListener(object : View.OnClickListener{
+            override fun onClick(v: View?) {
+
+            }
+
+        })
+        //lambda 语法
+//        c.setOnClickListener {
+//
+//        }
     }
 
     private fun initData() {
