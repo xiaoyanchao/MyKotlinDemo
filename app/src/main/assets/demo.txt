@@ -1,972 +1,558 @@
-0
-00:00:07.00 Hi, my name is Jay Keasling.
-1
-00:00:08.26 I'm from the Joint BioEnergy Institute,
-2
-00:00:11.00 the University of California at Berkeley,
-3
-00:00:13.04 and Lawrence Berkeley National Laboratory.
-4
-00:00:14.22 And today I'm going to be talking about engineering
-5
-00:00:16.22 microbes to solve global challenges.
-6
-00:00:18.28 It's probably no surprise to anyone that we derive
-7
-00:00:22.29 most of our fuels, chemicals, and even drugs from
-8
-00:00:26.09 petroleum. We pump it up from underground, we refine it
-9
-00:00:29.11 in a refinery, and then from that refinery, we produce all of
-10
-00:00:33.29 the fuels, chemicals, and drugs that we use on a day to day
-11
-00:00:37.01 basis. Now, if you just look at a typical barrel of oil.
-12
-00:00:41.11 Roughly, 80-85% of that barrel of oil goes to producing
-13
-00:00:45.11 all of the fuel that we use. In the U.S. that's on the order
-14
-00:00:49.09 of 225 billion gallons of transportation fuels every year.
-15
-00:00:53.27 The other 15-20% goes into producing all of the other
-16
-00:00:58.15 products, from carpet fiber to paint to plastic bottles, to even
-17
-00:01:03.00 some of the drugs that we ingest into our body.
-18
-00:01:05.24 Now, we'd like to have an economy that's not just
-19
-00:01:09.04 based on petroleum, but that's also based on renewable
-20
-00:01:12.10 feedstocks. Things like sugarcane, corn, and even cellulose
-21
-00:01:17.19 biomass in the form of grasses. Now if you were a farmer,
-22
-00:01:22.26 and you were to grow those various crops depending on where
-23
-00:01:26.00 you are in the world, you'd send them to a bio-refinery. And that
-24
-00:01:29.10 bio-refinery, just like a petroleum refinery, would split
-25
-00:01:32.27 those molecules apart, those sugar containing compounds apart,
-26
-00:01:36.13 and transform them into fuels, into chemicals, and even
-27
-00:01:40.11 into drugs. If you burn those fuels in your car, you'd still
-28
-00:01:44.06 be producing CO2 like you do when you produce
-29
-00:01:47.11 and burn petroleum based fuels, but that carbon dioxide
-30
-00:01:50.24 would be taken back up by the plant and incorporated
-31
-00:01:54.06 into the plant containing sugars, that then would be
-32
-00:01:58.04 refined into fuel. And in this sense, you'd have a carbon
-33
-00:02:01.19 neutral cycle of producing and consuming carbon dioxide.
-34
-00:02:06.10 Now if we just look at the volume and the value
-35
-00:02:11.20 of these molecules, at the very top of the volume and the bottom
-36
-00:02:16.12 of the value are the fuels. They have the lowest
-37
-00:02:19.20 value of many of the molecules that we use on a regular
-38
-00:02:23.00 basis. And yet, they have the highest volume. Remember I
-39
-00:02:26.26 told you that's about 225 billion gallons of transportation
-40
-00:02:30.20 fuel in the U.S. alone on an annual basis.
-41
-00:02:33.25 At the top of the values, and at the bottom of the
-42
-00:02:37.10 volume are the drugs we use. Extremely high value
-43
-00:02:40.22 molecules produced in small volumes. And then
-44
-00:02:44.11 in the middle are all of the other molecules and products
-45
-00:02:47.06 that we use on a day-to-day basis, like carpet on the
-46
-00:02:50.25 floor, the plastic bottles, the paints on the wall, mouthwash,
-47
-00:02:54.07 perfume, etc ... Now when we think about flexibility for
-48
-00:02:59.23 substitution, we know that with our drugs we don't want
-49
-00:03:02.23 anything that's just kind of like the drug we use but
-50
-00:03:05.28 exactly like the drug we know will cure a particular
-51
-00:03:09.28 disease. But we often think that there's a great deal more
-52
-00:03:13.28 substitution we can have for things like carpet fiber,
-53
-00:03:17.05 for mouthwash, and even more for fuels. However, that's
-54
-00:03:20.24 not really the case. Our fuels are regulated, what we put
-55
-00:03:24.24 in our tank is highly regulated, because that's what gets
-56
-00:03:28.09 exhausted into the atmosphere. And that ensures that our
-57
-00:03:32.08 planes stay up at the altitude. Same case for plastic bottles,
-58
-00:03:36.16 and carpeting, and paint. We need to know that those
-59
-00:03:39.28 products will work the same as they've always worked
-60
-00:03:42.25 regardless of whether they're produced from petroleum
-61
-00:03:46.09 or from carbon that comes from plants. Now today, I'm going
-62
-00:03:51.11 to be talking about engineering microbes, namely yeast
-63
-00:03:55.09 and E. coli, to produce a variety of these products.
-64
-00:03:58.15 And to produce products that behave or are identical
-65
-00:04:01.27 to the products that we would normally get from petroleum.
-66
-00:04:05.04 And I'm going to start off with a story about drugs.
-67
-00:04:08.29 And in this case, the story about artemisinin, a drug that
-68
-00:04:12.22 cures malaria. This guy, his name is George, I met him when
-69
-00:04:18.27 I traveled to Kisumu, Kenya. Kisumu is on Lake Victoria
-70
-00:04:24.15 and it's about sea level. And it has a very high incidence rate
-71
-00:04:30.02 of malaria. In fact, 80% of the population has malaria.
-72
-00:04:34.12 When I visited Kisumu that day, it was very warm,
-73
-00:04:38.02 but yet George came into this clinic wearing a long
-74
-00:04:41.12 coat and pants, and he had a runny nose. And it was pretty
-75
-00:04:44.01 clear that he wasn't feeling well. This is the clinic that he
-76
-00:04:47.15 came into, it's a government run clinic, and although it's
-77
-00:04:50.16 difficult to see, there are children that are lined up outside
-78
-00:04:53.18 the clinic waiting to get in. This at the top is a picture of
-79
-00:04:59.07 the typical home, a home that George might live in. It has
-80
-00:05:01.26 mud walls, a steel roof, but you could tell that the steel isn't
-81
-00:05:06.17 in very good shape. The nurse saw George and she knew that
-82
-00:05:10.19 he probably had malaria. So she pulled out a brand new
-83
-00:05:13.23 test kit that she just had access to. She pricked George's
-84
-00:05:17.29 finger, put a drop of blood at the bottom, and then
-85
-00:05:21.07 followed that with a couple of drops of buffer. A few seconds
-86
-00:05:24.13 later, the blood ran up the gradient. The two lines that
-87
-00:05:28.24 appeared, the top line is the control line to say that the kit
-88
-00:05:31.24 worked, and the bottom line by the T is the test line.
-89
-00:05:35.24 And that indicated that George had malaria.
-90
-00:05:38.12 The nurse then took George and weighed him, and
-91
-00:05:41.24 from his weight, got a package of Coartem
-92
-00:05:44.28 which contains artemisinin, an antimalarial drug.
-93
-00:05:48.15 She gave him the first tablet and then she instructed
-94
-00:05:51.15 his brother to give him a tablet 12 hours later, the third
-95
-00:05:56.24 tablet 12 hours after that, the fourth tablet 12 hours
-96
-00:05:59.28 after that, and so on. She repeated the instructions and
-97
-00:06:03.08 sent them on their way. And then she turned to me and
-98
-00:06:05.18 she said, "Jay, after the third tablet, George is going to be
-99
-00:06:08.29 feeling great. And his mother's going to take the rest of
-100
-00:06:12.00 those tablets and tuck them away in a drawer, because
-101
-00:06:14.04 the next time he gets malaria, she may not have access
-102
-00:06:17.08 to this free Coartem that she was able to get."
-103
-00:06:20.07 And because they're living on less than $1 a day,
-104
-00:06:23.04 there's no way she could afford the Coartem or any other
-105
-00:06:26.27 anti-malarial drug that would be sold in the private pharmacies.
-106
-00:06:32.04 A little bit about malaria. Roughly 3 billion people
-107
-00:06:35.18 on the planet at any one time, are at risk of getting malaria.
-108
-00:06:39.08 Roughly 250 million people are infected with the malaria
-109
-00:06:43.25 plasmod, the causative agent, called plasmodium.
-110
-00:06:47.28 And at any one time, roughly 500,000 to 1 million
-111
-00:06:52.12 people die of malaria, 2/3 of them are children under the age
-112
-00:06:56.10 of 5. There's a treatment, a cure for malaria, it's called
-113
-00:07:01.11 artemisinin. And it comes from this plant Artemisia annua.
-114
-00:07:04.07 And it has a great history, it goes back to 168 B.C.
-115
-00:07:07.25 where it was first described in the writings for being used
-116
-00:07:11.29 for treating hemorrhoids. And then a few hundred years later,
-117
-00:07:15.13 there are writings of it being used to treat fevers.
-118
-00:07:18.07 Presumably fevers due to malaria. It was largely
-119
-00:07:21.17 forgotten, but in the '60s and '70s, China was fighting
-120
-00:07:27.25 in Vietnam and malaria was rampant in Vietnam.
-121
-00:07:31.15 And the drugs they currently had available, based on quinone
-122
-00:07:34.18 were no longer effective. So Mao sent his medical core out
-123
-00:07:38.25 to find a cure for malaria. This woman here, Youyou Tu,
-124
-00:07:43.14 was one of the people who went out and led the medical
-125
-00:07:46.28 core. She pored through the ancient literature and finally
-126
-00:07:50.28 she found a description, shown here, for using
-127
-00:07:55.12 sweet wormwood, making a tea of the wormwood,
-128
-00:08:00.03 extracting the drug, and patients drinking it.
-129
-00:08:04.04 They purified the active ingredient, found out how
-130
-00:08:06.27 best to extract it and then by 1972, had the active
-131
-00:08:12.00 ingredient isolated and described. In 2004, the World Health
-132
-00:08:17.02 Organization recommended artemisinin-based combination
-133
-00:08:19.22 therapy as the drug of choice for treating malaria.
-134
-00:08:22.24 So, what's the challenge? We've got this great cure for
-135
-00:08:27.07 malaria. It's an ancient Chinese therapy now been westernized.
-136
-00:08:30.29 What's the problem? Well, I alluded to a few of these
-137
-00:08:34.02 challenges earlier. The first one is availability. Remember
-138
-00:08:38.07 George's mother would give him 3 tablets, he'd be feeling
-139
-00:08:41.08 great, and then she'd tuck the rest away because it
-140
-00:08:44.20 wouldn't be available to them. And, if it were available to them
-141
-00:08:47.22 the cost would be too high. There are also challenges around
-142
-00:08:51.14 quality of the drugs. There are makers of artemisinin
-143
-00:08:55.12 therapies that don't put as much artemisinin in them as
-144
-00:08:58.18 they should or any at all, and try to sell them as artemisinin
-145
-00:09:01.20 drugs. And finally, there's the challenge due to resistance.
-146
-00:09:05.17 In many -- in a few parts of the world, where they've been
-147
-00:09:09.22 using artemisinin the most, resistance has -- plasmodium
-148
-00:09:14.08 has become resistant to artemisinin. And this has become
-149
-00:09:17.02 a big challenge. This is mainly occurring in regions around
-150
-00:09:21.09 Vietnam, where artemisinin was first used.
-151
-00:09:24.20 Now, this is the process by which we get artemisinin.
-152
-00:09:29.12 We grow plants on a plantation, we purify the artemisinin
-153
-00:09:33.25 from those plants, and then convert it chemically into the
-154
-00:09:37.05 derivatives that are used in artemisinin combination therapies.
-155
-00:09:40.05 I visited one of these plantations and actually saw
-156
-00:09:43.09 this in action. Now, the artemisinin is produced in
-157
-00:09:47.05 small trichomes, where it's held, that are on the leaf
-158
-00:09:50.19 of the plant. These trichomes store the artemisinin and when
-159
-00:09:54.13 you rub the plant, you can get the artemisinin off.
-160
-00:09:57.01 When you make a tea of the plant, these trichomes
-161
-00:09:59.07 burst and the artemisinin comes out. Now the way we
-162
-00:10:03.20 get artemisinin is that the seeds are planted in
-163
-00:10:09.01 small greenhouses, then once the plants grow up
-164
-00:10:12.10 to be about six inches to a foot tall, they're taken out
-165
-00:10:14.27 into the fields, they're planted by hand, where they grow
-166
-00:10:18.00 up over a growing season, and they grow to be about
-167
-00:10:20.10 8 feet tall. After they've grown up, they are then harvested,
-168
-00:10:24.24 the plants are chopped, generally by hand, and then laid out
-169
-00:10:29.00 on tarps to dry in the sun. The artemisinin is contained in
-170
-00:10:34.04 the leaves of the plants. So then they beat the plants
-171
-00:10:36.17 to get the leaves off, they collect all of those leaves
-172
-00:10:39.08 that are on the tarps, run them through sieves to get only
-173
-00:10:42.08 the smallest leaves, and then they take it into the factory
-174
-00:10:46.02 and extract it. Now, I mentioned that price and availability
-175
-00:10:50.03 were a challenge. In 2004, artemisinin was chosen as the drug
-176
-00:10:54.15 of choice for treating malaria. And by 2005, the price had shot
-177
-00:10:58.15 way up to over $1100 a kilogram. Farmers saw that they
-178
-00:11:03.01 could make money from producing artemisinin, so they
-179
-00:11:05.25 started producing lots of it. And shown in the blue bars
-180
-00:11:08.23 are the amount of artemisinin. And by 2007, they had
-181
-00:11:13.19 overproduced it so much so that the price fell to around
-182
-00:11:17.15 $200/kilogram. Farmers then stopped planting artemisinin,
-183
-00:11:21.29 there was a shortage by 2009, and the price started shooting
-184
-00:11:24.23 back up. So you see these swings in price and availability.
-185
-00:11:28.09 The other challenge with artemisinin is the long time
-186
-00:11:31.22 it takes to produce it. You can see that by the difference
-187
-00:11:35.11 in the peaks of the price and the availability. It's two years.
-188
-00:11:39.16 It takes anywhere from 18 months to 2 years for pharmaceutical
-189
-00:11:43.10 companies to decide how much artemisinin they need,
-190
-00:11:45.26 to then have contracts with farms to grow it, to get the proper
-191
-00:11:51.00 seeds that produce the most, for it to go through a growing
-192
-00:11:54.02 season, for the farmers to harvest it and get it back
-193
-00:11:56.19 into the factory where it's extracted, and then turned
-194
-00:12:00.00 into the pharmaceutical companies, where they then
-195
-00:12:03.02 make the derivatives that are produced and used in
-196
-00:12:05.24 artemisinin combination therapies. So that time window
-197
-00:12:09.20 of 18-24 months is also a challenge.
-198
-00:12:13.10 Now, what else could farmers plant if they didn't plant
-199
-00:12:17.07 artemisinin? Well, they could plant many food crops
-200
-00:12:19.17 and shown here are the prices of artemisinin compared
-201
-00:12:23.04 with food crops in China and Vietnam. Early in
-202
-00:12:27.07 the use of artemisinin in 2004, many farmers in Vietnam
-203
-00:12:31.29 started planting artemisinin. But those farmers went out
-204
-00:12:35.15 of business, since large plantations in China began
-205
-00:12:39.13 to sprout up. Now most of the artemisinin is produced
-206
-00:12:42.16 from plants grown in China. I mentioned that resistance
-207
-00:12:48.10 is rising to artemisinin. You can see here that several
-208
-00:12:52.25 countries allowed sale and production of mono-therapies.
-209
-00:12:57.00 Mono-therapies, because there's only one drug in them,
-210
-00:13:00.23 actually encourage resistance. If you have more than one
-211
-00:13:04.16 drug that fights the plasmodium with multiple modes
-212
-00:13:07.27 of action, then you have a chance of containing that
-213
-00:13:10.18 resistance. And as I mentioned earlier, there's been
-214
-00:13:13.10 resistance documented on the Cambodia-Thailand
-215
-00:13:16.23 border near Vietnam. So, several years ago, our
-216
-00:13:21.04 goal was to engineer a microbe to produce artemisinin
-217
-00:13:24.07 from an inexpensive renewable resource that would allow
-218
-00:13:26.25 us to stabilize and reduce the price. Stabilize and increase
-219
-00:13:30.14 supply. Reduce production time. And control resistance
-220
-00:13:34.03 by controlling the supply. This was our process.
-221
-00:13:37.27 We were going to replace the plant with microbes, either
-222
-00:13:41.20 E. coli or yeast. Rather than produce artemisinin, we
-223
-00:13:44.15 proposed producing artemisinic acid. Artemisinic acid is
-224
-00:13:48.00 less toxic than artemisinin to yeast and E. coli.
-225
-00:13:51.18 But there was a readily known conversion process that
-226
-00:13:54.24 would allow us to convert artemisinic acid into
-227
-00:13:57.02 the same derivatives that are currently produce from
-228
-00:13:59.04 artemisinin. So then it could be substituted directly
-229
-00:14:01.21 in the drug pipeline. This is the strategy we would use.
-230
-00:14:07.13 We would engineer a microbe to produce artemisinic acid,
-231
-00:14:10.15 we would then hope to get that artemisinic acid
-232
-00:14:12.29 out of the microbe, some way through a purification
-233
-00:14:15.29 process. And then chemically convert it into the derivatives.
-234
-00:14:19.04 We started with E. coli as our first chassis.
-235
-00:14:22.29 E. coli is an organism that we know a lot about, we have
-236
-00:14:25.21 a lot of genetic tools for engineering it. And so that
-237
-00:14:29.00 became our first chassis. E. coli produces farnesyl
-238
-00:14:32.21 pyrophosphate, a precursor to artemisinin.
-239
-00:14:35.04 And so that gave us the first step in that biosynthetic
-240
-00:14:38.13 pathway. Unfortunately, E. coli produces very little
-241
-00:14:41.19 farnesyl pyrophosphate, so we brought in heterologous
-242
-00:14:46.08 pathway from another organism, yeast. In yeast this
-243
-00:14:49.22 pathway produces a relative of cholesterol called
-244
-00:14:52.25 ergosterol, that's needed for the growth of the yeast.
-245
-00:14:56.22 We used this pathway to produce farnesyl pyrophosphate.
-246
-00:15:00.01 It tapped into acetyl-CoA, which E. coli has plentiful amounts
-247
-00:15:04.29 of. The next step in the process was to find the
-248
-00:15:10.28 enzyme that converts farnesyl pyrophosphate into
-249
-00:15:13.19 amorphadiene, the first committed precursor in the
-250
-00:15:16.18 artemisinin biosynthetic pathway. Luckily for us, that gene
-251
-00:15:20.14 had been cloned and all we thought we needed to do
-252
-00:15:24.25 was get access to the gene. Unfortunately, the person who'd
-253
-00:15:28.02 cloned that gene wouldn't give us access, so we had to
-254
-00:15:30.13 synthesize the gene directly. We also developed a number
-255
-00:15:35.03 of synthetic biology tools that would allow us to increase
-256
-00:15:37.29 the flux through this biosynthetic pathway. We developed
-257
-00:15:41.23 scaffolds that would allow us to attach the enzymes
-258
-00:15:44.11 in the biosynthetic pathway to a synthetic protein scaffold,
-259
-00:15:47.20 and thereby collect all the enzymes together so that they
-260
-00:15:50.28 could increase the flux through the pathway. We developed
-261
-00:15:54.14 regulators that could sense intermediates in the pathway,
-262
-00:15:58.10 like farnesyl pyrophosphate, which are toxic to organisms
-263
-00:16:01.14 like E. coli if they accumulate at too high a level.
-264
-00:16:04.13 And then those regulators would regulate the biosynthetic
-265
-00:16:08.10 pathway. We also developed a type of debugging tool
-266
-00:16:11.21 that would allow us to debug the inside of a cell and
-267
-00:16:14.16 determine which genes were turned on, which genes were
-268
-00:16:17.10 turned off, and what might be the cause of any toxicity
-269
-00:16:20.00 or any lack of production that we witnessed.
-270
-00:16:23.08 Through the use of those tools, through synthesis
-271
-00:16:27.13 of genes, we were able to increase the production
-272
-00:16:29.21 to about 10 million fold from where we started. And this
-273
-00:16:34.17 was work that was done both in my laboratory at UC
-274
-00:16:37.03 Berkeley, as well as in Amyris, a company that was started
-275
-00:16:39.15 out of my laboratory. Now, the next steps in the biosynthetic
-276
-00:16:44.06 pathway involve cytochrome P450s that would put an oxygen
-277
-00:16:48.04 on that amorphadiene. Unfortunately for us at the time,
-278
-00:16:51.27 the genes hadn't been cloned and hadn't been
-279
-00:16:54.13 described. But we know that it was going to involve
-280
-00:16:56.25 multiple steps and potentially multiple cytochrome P450s.
-281
-00:17:00.14 We were worried. E. coli is not a great host for expressing
-282
-00:17:05.01 these enzymes. So, the first thing we did was went about,
-283
-00:17:08.17 we went about building a yeast that would be a reagent
-284
-00:17:12.14 for us. An organism where we would engineer the production
-285
-00:17:15.16 of amorphadiene, and then use it to find the P450s that
-286
-00:17:19.16 might be involved in the biosynthetic pathways to convert
-287
-00:17:22.06 amorphadiene into artemisinic acid. We increased
-288
-00:17:26.17 the expression of the enzymes in the mevalonate pathway,
-289
-00:17:29.12 that same pathway that we imported into E. coli
-290
-00:17:32.03 to produce farnesyl pyrophosphate, and by upregulating
-291
-00:17:35.10 the genes in that biosynthetic pathway, we were able
-292
-00:17:37.21 to produce sufficient farnesyl pyrophosphate and then
-293
-00:17:41.10 amorphadiene, when we introduced amorphadiene synthase.
-294
-00:17:44.29 We could use that organism as a reagent to find the enzymes.
-295
-00:17:48.23 But we still had to go into artemisia and find the genes
-296
-00:17:53.01 in that last part of that pathway. Well, as I mentioned earlier,
-297
-00:17:57.25 artemisinin is produced in trichomes on the leaves.
-298
-00:18:00.19 And there are basal cells that produce that artemisinin.
-299
-00:18:04.19 They must be enriched in the enzymes that produce the
-300
-00:18:08.01 artemisinin, if that's where it's produced, and therefore
-301
-00:18:10.06 they'd be enriched in the transcripts that encode those
-302
-00:18:13.20 enzymes. So we went in looking for those transcripts.
-303
-00:18:17.05 We developed a method to purify the trichomes off the
-304
-00:18:20.18 leaf, which was a very difficult process. And then we made
-305
-00:18:24.23 cDNA libraries of those trichomes and looked for RNAs
-306
-00:18:28.20 that might be important for that biosynthetic pathway.
-307
-00:18:32.08 But it'd be like looking for a needle in a haystack.
-308
-00:18:36.00 So, a very creative postdoc in my laboratory said,
-309
-00:18:39.21 well, the artemisinin biosynthetic pathway is it looks
-310
-00:18:43.11 a lot like biosynthetic pathways that are in lettuce
-311
-00:18:47.03 and sunflower. If you look, the molecules are very
-312
-00:18:50.07 similar, and because the molecules look similar,
-313
-00:18:53.06 that must mean the enzymes are similar.
-314
-00:18:55.25 So he then sorted through a cDNA library that we had
-315
-00:18:59.09 available to us, of sunflower and lettuce. Looked for
-316
-00:19:02.17 P450s that were unusual, and compared those to the
-317
-00:19:06.11 P450s that we got in the cDNA library that we got from
-318
-00:19:09.12 Artemisia annua. And about that time, a bunch of
-319
-00:19:13.23 miracles started happening. The first miracle was that
-320
-00:19:16.13 the first enzyme we tried was the right enzyme.
-321
-00:19:19.27 The second miracle was that rather than just
-322
-00:19:22.17 catalyzing the first step in the biosynthetic pathway,
-323
-00:19:25.04 it catalyzed all three steps and the yeast produced
-324
-00:19:28.12 artemisinic acid. The third miracle was really where
-325
-00:19:33.03 the artemisinic acid ended up. We couldn't find it
-326
-00:19:36.24 inside the cells, we couldn't find it in the broth,
-327
-00:19:39.04 in the shake flasks. It turns out that artemisinic acid
-328
-00:19:42.04 is not as toxic as artemisinin to yeast, but toxic
-329
-00:19:44.20 enough that the yeast excreted it out of the cell,
-330
-00:19:48.06 turned on pumps to pump it out selectively,
-331
-00:19:51.00 so that it wouldn't be inside the cell and toxic
-332
-00:19:53.12 to the yeast. And because the pH of the fermentation
-333
-00:19:57.08 broth was relatively low, the artemisinic acid
-334
-00:20:01.04 precipitated on the yeast membrane. As we
-335
-00:20:05.10 increased the production of artemisinic acid,
-336
-00:20:08.16 it actually comes out of solution in the fermentation
-337
-00:20:12.17 broth. This is a picture contributed by Amyris
-338
-00:20:16.01 when they took their highly engineered yeast,
-339
-00:20:19.17 it actually precipitates, secretes the artemisinic
-340
-00:20:22.16 acid outside the cell, and it precipitates in the
-341
-00:20:24.27 fermentation broth. And this gives you the perfect
-342
-00:20:27.11 purification. Now, the yeast that we delivered
-343
-00:20:31.14 to Amyris was not ideal. It produced artemisinic
-344
-00:20:36.24 acid, but not at a high level, and it grew slowly
-345
-00:20:38.28 because of the toxicity. And through engineering
-346
-00:20:41.23 the P450, as well as the CPR, and controlling
-347
-00:20:46.02 the electron transfer between the CPR and the
-348
-00:20:48.22 P450, Amyris was able to increase the production
-349
-00:20:52.08 and give us a host that's highly productive.
-350
-00:20:56.08 That host is now being used by Sanofi, producing
-351
-00:21:01.18 artemisinic acid in large scale in Eastern Europe.
-352
-00:21:05.16 That artemisinic acid is then converted into
-353
-00:21:09.15 artemisinin, using a light catalyzed process.
-354
-00:21:12.05 Much like we think occurs in the plant, where
-355
-00:21:15.01 light catalyzes the conversion of artemisinic acid
-356
-00:21:18.03 to artemisinin. And this is the full-scale facility
-357
-00:21:21.03 that Sanofi built in Garessio, Italy, where they're
-358
-00:21:24.02 producing the artemisinin. That artemisinin,
-359
-00:21:27.07 shown here pallets of it, is then shipped to
-360
-00:21:31.15 Morocco, where it's tableted and there is the final
-361
-00:21:34.11 product, right down there. 3 million treatments
-362
-00:21:37.21 had been delivered to Africa as of about January,
-363
-00:21:42.10 by May of this year, 16 million treatments had been
-364
-00:21:46.17 shipped to Africa. And Sanofi will have the capacity to
-365
-00:21:50.06 produce between 100-150 million treatments on an
-366
-00:21:53.22 annual basis. That's roughly one half of the world's
-367
-00:21:56.27 needs. Now, what I've told you is a story about
-368
-00:22:01.01 producing artemisinin in yeast and E. coli.
-369
-00:22:04.10 There are many other products that we might want
-370
-00:22:06.10 to produce. Things like fuels. Now, as I mentioned
-371
-00:22:09.20 earlier, if you produce fuels using engineered organisms
-372
-00:22:13.21 and those fuels are derived from renewable resources,
-373
-00:22:18.09 like sugars from biomass, the carbon that you put into
-374
-00:22:21.29 the atmosphere that the plants took up in producing that
-375
-00:22:25.14 biomass. So you have this possibility of producing carbon
-376
-00:22:28.13 neutral fuels. Well, we had an organism engineered
-377
-00:22:33.13 that could produce hydrocarbons. Now ethanol is one
-378
-00:22:37.29 of the fuels that's most widely used, and it's commercially
-379
-00:22:40.20 produced in the U.S. and supplemented into gasoline.
-380
-00:22:44.00 But it can't substitute for diesel and jet fuel.
-381
-00:22:47.18 We need a fuel that behaves exactly like the fuels
-382
-00:22:50.14 we get from petroleum. Well, we had in our hands
-383
-00:22:54.08 a host that would produce hydrocarbons, and we thought
-384
-00:22:56.25 we could just convert that into a fuel producing host.
-385
-00:23:00.11 Here are some of the fuels that could possibly be
-386
-00:23:04.04 produced using an engineered organism and they
-387
-00:23:06.11 include short-chained hydrocarbons that you'd find
-388
-00:23:09.06 in gasolines, long-chained hydrocarbons that you'd find
-389
-00:23:12.20 in diesels and jet fuels, and even aromatics that you find
-390
-00:23:15.10 in all fuels. So we went about engineering that yeast
-391
-00:23:19.21 and E. coli that we had first engineered for producing
-392
-00:23:22.03 artemisinin, to now produce hydrocarbons that would have
-393
-00:23:25.03 similar properties to the hydrocarbons that we get from
-394
-00:23:27.18 petroleum. And that engineering involved replacing the
-395
-00:23:31.21 genes that were specific for producing artemisinin
-396
-00:23:34.10 with genes that were specific for producing the hydrocarbons
-397
-00:23:37.02 that we'd use as fuels. Now, one great thing about these
-398
-00:23:42.05 fuels, which is very similar to the story I told you
-399
-00:23:44.29 about artemisinin, is that they are pumped
-400
-00:23:48.07 or leak out of the cells. And shown here is
-401
-00:23:52.14 a tube that had E. coli growing in it and you can see
-402
-00:23:57.04 at the top, there is an oil film at the top of that tube,
-403
-00:24:00.15 and then shown in this picture are E. coli swimming
-404
-00:24:03.15 in their broth. And you can see the blebs of fuel
-405
-00:24:07.02 that are being excreted and are collecting. Now this
-406
-00:24:10.14 makes the purification process for these fuels
-407
-00:24:13.22 really simple. You grow the cells up on the sugar,
-408
-00:24:17.04 they produce the fuel, excrete it, and it floats to the top.
-409
-00:24:20.16 It's a lot like making a vinaigrette, the oil floats to the top,
-410
-00:24:24.26 you skim it off the top, and if you've engineered the biology
-411
-00:24:28.00 right, you can put that into your tank and drive away.
-412
-00:24:30.12 Now I've talked to you about fuels and drugs, I want
-413
-00:24:34.23 to just mention the possibility of engineering
-414
-00:24:38.27 microbes for producing all of the other chemicals
-415
-00:24:41.09 that we now get from petroleum. Things like mouthwash,
-416
-00:24:44.06 perfume, carpet, and paint. As I mentioned earlier,
-417
-00:24:47.15 about 15% of a barrel of oil goes into producing
-418
-00:24:51.09 all of those products. And yet that 15% of the barrel of the oil
-419
-00:24:55.16 generates as much profit for companies as the other
-420
-00:24:59.07 85%, because of the higher value of those commodity
-421
-00:25:03.08 and specialty chemicals. But again, we have to produce
-422
-00:25:06.25 products that behave exactly like the products that we get
-423
-00:25:11.02 from petroleum, not things that are kinda like it.
-424
-00:25:14.00 But, shown here are just a variety of the products
-425
-00:25:17.08 that we currently get from petroleum. And this is
-426
-00:25:20.07 a pared down list. The list is vast and extensive.
-427
-00:25:24.17 But we can use a lot of the same synthetic biology
-428
-00:25:27.12 that I talked about earlier. Engineering the microbe
-429
-00:25:30.05 to produce identical precursors to the ones you get
-430
-00:25:34.04 from petroleum that could then be incorporated into all
-431
-00:25:38.05 of these products. And there we have a renewable
-432
-00:25:41.07 economy. Now, one of the challenges that we have in
-433
-00:25:46.16 engineering biology to produce all the products we want
-434
-00:25:49.10 to is that it's expensive and time-consuming. That
-435
-00:25:52.03 project I described about engineering yeast to produce
-436
-00:25:55.17 artemisinic acid, that took $25 million just for the research
-437
-00:25:58.26 and development alone. And about 150 person years
-438
-00:26:02.20 of work to get it accomplished. We need to be able to do
-439
-00:26:05.23 these projects with a tenth or a hundredth of that if it's
-440
-00:26:09.03 ever to compete with petroleum processes.
-441
-00:26:11.26 Why did it take so long? Well, just to engineer
-442
-00:26:16.06 that yeast to produce artemisinic acid, we needed
-443
-00:26:18.16 over 40 components, the genes, all the regulatory
-444
-00:26:21.06 switches. We had no standards for those connections,
-445
-00:26:24.26 no accurate models, and no details could be ignored.
-446
-00:26:28.24 And what's more, there was no BioShack to go out to,
-447
-00:26:31.12 to buy any of those components. Biological engineering
-448
-00:26:35.17 is slow because we design something, we then go
-449
-00:26:39.00 into the laboratory, we build it, and then we test it.
-450
-00:26:41.19 And hopefully, we learn from our mistakes.
-451
-00:26:43.28 But one turn of this cycle can take weeks, if not
-452
-00:26:47.26 months. And many years ago, it took a year
-453
-00:26:51.04 or more to go around this cycle. We need to turn
-454
-00:26:53.29 the crank faster and in higher throughput, so that
-455
-00:26:57.09 eventually, we can design once and have it be correct
-456
-00:27:00.19 after the first design. What's more, companies don't share
-457
-00:27:05.07 when they've gotten good at this process. Amyris became
-458
-00:27:08.27 good at engineering artemisinin, Dupont became very good
-459
-00:27:13.17 at engineering 1,3-Propanediol, but when they become
-460
-00:27:16.04 good at that, that's a trade secret. And they keep it
-461
-00:27:18.08 in house and don't share it. So the timelines don't
-462
-00:27:21.00 get shorter and shorter as we hope they could.
-463
-00:27:23.28 We really need the biotech industry, the next
-464
-00:27:27.08 generation of biotech industry, to look more like
-465
-00:27:29.06 the microelectronics industry, so that we can have
-466
-00:27:31.04 really powerful things like we now have computers
-467
-00:27:34.06 and cell phones that won't cost as much to develop
-468
-00:27:37.05 as they currently do in biology. And so, I'm advocating
-469
-00:27:41.17 for a next generation of biological foundry, just like we
-470
-00:27:44.23 have silicon foundries, we need to have biological
-471
-00:27:47.12 foundries that will allow any user to come in, design
-472
-00:27:51.12 on the computer what they want, send it off
-473
-00:27:53.25 to a foundry to be build, and come back to them
-474
-00:27:56.07 and work as planned. This is my goal and something
-475
-00:28:00.21 that I think the future holds. I think there's a lot of
-476
-00:28:04.03 promise in this. And it's something we have a head start
-477
-00:28:08.21 on. I'd like to acknowledge all the funding and the work.
-478
-00:28:13.05 There was a lot of work from people from my laboratory,
-479
-00:28:15.27 Amyris, and Sanofi for the development of the semisynthetic
-480
-00:28:20.18 artemisinin. The work at jbei and synberc for the fuels
-481
-00:28:23.20 and chemicals. And I'd like to thank all the funding from
-482
-00:28:26.28 the Bill & Melinda Gates Foundation, the Department of
-483
-00:28:29.14 Energy, and the National Science Foundation for all the
-484
-00:28:31.27 work this enabled. And I'd like to thank you for listening
-485
-00:28:34.18 to this video.
+00:07.2 Hi.
+00:09.1 My name is Taekjip Ha.
+00:11.0 I'm a professor of biophysics and biomedical engineering
+00:13.2 at Johns Hopkins University.
+00:16.1 I am also an investigator with the Howard Hughes Medical Institute.
+00:21.3 Today, I'm going to tell you
+00:23.2 how single molecule measurement technologies
+00:26.1 are changing the way we study
+00:28.2 and understand nature's nano-machines.
+00:34.2 You may have heard people say that
+00:36.2 proteins can be viewed as nano-machines.
+00:40.0 Why?
+00:41.2 First, because they are unimaginably small.
+00:45.2 They are only a few nanometers across.
+00:48.1 How small is a nanometer?
+00:50.1 Well, the smallest object that human eyes can see
+00:54.2 is about 80 [micrometers] across,
+00:58.0 which is a human hair.
+01:00.0 That means that you can put 20,000 proteins
+01:03.2 across a single human hair.
+01:05.2 So, it's really, really small and you need special technologies to be able to
+01:10.0 view and measure them.
+01:12.2 Proteins are also called nano-machines
+01:14.2 because they can perform jobs
+01:17.1 that human-made machines can do.
+01:19.2 For example, they can convert chemical energy
+01:22.0 into mechanical energy
+01:24.1 to power proteins along DNA or other molecules,
+01:30.2 or you can store energy into a protein
+01:33.1 just like you can wind up a wind-up toy
+01:36.1 to store mechanical energy.
+01:41.3 Here is an example:
+01:44.2 a virus can package its genomic material,
+01:47.2 the DNA,
+01:49.1 into a very small volume using
+01:51.2 a protein nano-machine
+01:54.1 called DNA packaging motor,
+01:56.0 and this packaging motor can use the energy coming from ATP consumption
+02:00.1 to move the DNA into the capsid
+02:03.3 one base pair at a time,
+02:06.1 and it can do this until it can build
+02:10.1 a pressure that matches the pressure
+02:12.2 inside a champagne bottle.
+02:15.3 So it's an amazing machine that can,
+02:17.2 you know,
+02:19.2 cram a large piece of DNA into a very, very small volume.
+02:24.0 Here's another example of a nano-machine.
+02:26.1 This is a protein called kinesin
+02:29.1 carrying a cargo inside a living cell,
+02:32.1 and kinesin is one of the molecular motors
+02:34.3 that can move on the cellular highways directionally,
+02:39.3 using the energy coming from ATP.
+02:43.2 Just like cars are moving on the highway
+02:46.0 using gasoline as a fuel,
+02:48.1 these molecules can move on microtubules
+02:51.3 using ATP as the fuel.
+02:58.2 So, we wanted to study the mechanism
+03:02.2 of the movement of these motor proteins.
+03:05.2 One way of achieving this is to
+03:08.1 label the motor
+03:11.0 using a single fluorescent molecule
+03:13.2 and measure the movement of a motor protein
+03:16.0 at the single molecule level
+03:17.2 using a microscope in a dark room,
+03:20.0 as shown here.
+03:22.3 The labeling can be done by
+03:25.1 attaching a small fluorescent molecule
+03:28.1 to the site of your interest.
+03:30.1 In this case, let's say a molecular motor
+03:33.1 called myosin V
+03:34.3 is moving on the actin filament,
+03:36.2 and it's known that the center of mass of the motor
+03:40.1 moves on the track
+03:42.1 with a step size of 37 nanometers.
+03:45.1 Here, you can put a fluorescent molecule
+03:48.0 on the foot of the motor
+03:50.1 and you can image that single molecule
+03:52.1 as a function of time in a dark room
+03:54.3 using a microscope,
+03:56.2 a very sensitive microscope
+03:59.1 using CCD-based detection.
+04:02.2 Now, if you image a single molecule
+04:07.0 using your camera,
+04:08.2 you get a pixelated image shown on the left,
+04:13.0 and here the pixel size is about 80 nanometers,
+04:16.1 but the motor protein itself is
+04:19.3 much, much smaller than even a single pixel size,
+04:23.1 about 10 times smaller,
+04:27.0 but because of a process called light diffraction
+04:29.1 #NAME?
+04:31.2 based on Heisenberg's Uncertainty Principle --
+04:34.2 when you take an image of a single molecule,
+04:37.1 you know, using even the best optical microscope,
+04:40.2 this molecule appears to be much bigger,
+04:42.3 about 250 nanometers across,
+04:45.1 which is about the half of the wavelengths of the light
+04:50.0 used to image the molecule.
+04:51.2 However, if you have a good enough
+04:54.0 signal-to-noise ratio in your imaging,
+04:56.1 then you can fit this pixelated image
+05:00.2 using a 2-dimensional Gaussian function
+05:03.0 and then find the center
+05:05.0 with a much better precision
+05:07.0 than the width of the image itself.
+05:10.1 In fact, mathematics tell you that
+05:13.3 you can do it down to about 1 nanometer precision,
+05:16.2 and in practice it has been shown that,
+05:20.1 yes, you can even approach that level
+05:22.1 by, you know, going down to
+05:24.1 about 1.5 nanometer precision.
+05:26.0 So, it's amazing that you
+05:28.0 can actually follow the movements of these motor proteins
+05:30.0 in the lab,
+05:33.3 down to single nanometer precision.
+05:40.0 So, here's an example
+05:42.1 where we imaged a single myosin V motor protein
+05:45.2 moving on the track
+05:47.3 and, as you can see,
+05:53.1 as time goes on,
+05:56.1 this spot, coming from a single molecule,
+05:58.2 moves diagonally across to the top left,
+06:01.2 and you can visualize individual stepping motions
+06:05.1 as discrete movements,
+06:07.1 you can find the center,
+06:09.1 and then plot that position as a function of time,
+06:13.0 and you can see beautiful steps,
+06:14.2 and the step size turns out to be 74 nanometers,
+06:18.1 which is twice the step size of the center of mass.
+06:21.3 And this actually showed, conclusively,
+06:24.1 for the first time,
+06:25.2 that the step size of...
+06:27.2 actually, that the molecule,
+06:29.2 instead of crawling on the track,
+06:31.3 it walks like a human walker, a bipedal walker,
+06:34.2 and it proved a model called the hand-over-hand model
+06:38.1 in the most definitive way.
+06:42.1 So, to recap what I just told you,
+06:44.1 what we did with the myosin V molecule
+06:46.3 was just this:
+06:49.0 you know, if you want to follow the movement
+06:51.1 of your favorite soccer player on the field,
+06:53.0 you can put a fluorescent molecule
+06:56.0 on a body part of the player
+07:00.0 and then follow its movements as a function of time.
+07:07.1 But this measurement alone does not tell you why
+07:10.2 -- you know, my favorite soccer player, here, Messi --
+07:12.2 is such a great player, not a merely average player.
+07:16.1 Soccer players, as you can imagine,
+07:18.3 have to undergo multiple conformational changes...
+07:22.0 actually, conformation is a jargon that
+07:24.2 biophysicists use to denote the shape change of a molecule,
+07:27.3 so a soccer player has to change his body shape
+07:30.2 and posture,
+07:32.2 you know, repeatedly
+07:35.1 to perform the amazing action
+07:37.3 of kicking and moving the ball.
+07:39.1 And you are blind to the conformational changes
+07:43.3 if you just follow one spot
+07:47.1 in a body part.
+07:50.1 In addition...
+07:52.1 so, that's basically what you will be seeing,
+07:55.0 you know, just one spot,
+07:57.0 you know, nothing else.
+08:00.0 So, we have, actually, another technology
+08:01.2 that can be used to address this issue.
+08:04.3 It's called FRET for
+08:07.2 fluorescence resonance energy transfer.
+08:10.0 Here, instead of just using one dye,
+08:12.1 we use two dye molecules,
+08:13.3 and one is called "donor", in green,
+08:16.1 and the other is called the "acceptor", in red.
+08:20.1 Now, when the two dyes are very far away from each other,
+08:22.2 you use a laser light to excite the green molecule
+08:25.3 and then you get emission from the green molecule,
+08:28.1 so you get green photons from the molecule.
+08:33.0 But if the acceptor moves closer to the donor,
+08:37.0 then there is more and more
+08:39.3 energy being transferred from the green molecule
+08:41.3 to the red molecule.
+08:43.1 As a result,
+08:44.3 now you get photons coming from the red molecule,
+08:47.2 of a red color.
+08:49.3 So, by measuring the relative intensities
+08:53.1 of the green and red molecules,
+08:57.0 you can deduce how far they are away from each other
+08:58.3 and if you know where the dyes
+09:01.2 are attached to the molecule,
+09:03.2 you can, for example,
+09:05.2 distinguish between different conformations of a molecule.
+09:08.3 Now, this technique
+09:11.1 has a very strong distance dependence
+09:13.2 and it can go from 100% energy transfer to 0
+09:17.3 over a very few nanometer length scale change,
+09:21.1 between 3-8 nanometers,
+09:23.1 which is about the size of many proteins
+09:25.3 and many other important biological molecules.
+09:28.1 So it's the perfect technique
+09:30.2 to measure the shape changes of
+09:34.2 all kinds of important nano-machines inside our body.
+09:39.2 Here's an example.
+09:41.3 Imagine there's a protein
+09:43.2 -- it's a butterfly that I'm using as an example --
+09:45.3 you can put two dye molecules, green and red,
+09:48.1 on two different locations,
+09:50.1 so that in the closed conformation
+09:53.3 energy transfer is efficient,
+09:55.2 you get many red emissions,
+09:57.2 whereas in the open conformation over there,
+09:59.2 you get mainly green emission,
+10:01.0 because the energy transfer efficiency is not high.
+10:08.1 Here's another illustration
+10:10.1 using the world famous using the world famous rap singer
+10:13.2 Psy's Gangnam Style as an example.
+10:15.2 So, he's going between different conformations,
+10:17.3 The Sunglasses,
+10:19.2 The Cowboy,
+10:20.3 The Horseback Riding,
+10:22.0 and The Finish,
+10:23.1 and if you have dyes on the two hands,
+10:25.2 then you can go in between intermediate distance,
+10:28.2 a large distance,
+10:30.0 and small distance,
+10:31.3 and different, you know,
+10:33.3 intensities of two different dyes
+10:36.0 can be measured as a function of time.
+10:39.3 Now, unlike what the cartoon suggests,
+10:44.0 in a microscope you cannot see these two dye molecules
+10:46.2 as two distinct spots because they are so close to each other,
+10:50.0 much closer than the diffraction limit,
+10:53.0 you know, 250 nanometer resolution of the microscopy
+10:57.1 that we are using,
+10:58.2 so they appear as a mixture of green and red,
+11:02.2 in yellow, as shown here.
+11:04.2 And when you move to the next conformation,
+11:07.0 then it appears as green,
+11:09.2 and then as red and so on,
+11:12.0 so you can go back and forth between two conformations,
+11:15.2 and you can read out the movement,
+11:17.2 how quickly this movement occurs,
+11:19.1 and how big the amplitude of the movement is
+11:21.1 by just looking at the color change
+11:23.2 as a function of time.
+11:24.2 So, this is the idea,
+11:26.2 and here's the final reaction.
+11:28.2 So, if you measure intensities of green and red fluorescence
+11:32.3 as a function of time, as you can see,
+11:35.3 you can see beautifully anti-correlated changes
+11:39.0 that report on the conformational changes
+11:44.1 during the molecular dance.
+11:48.1 Here are the results...
+11:50.2 in addition to intramolecular conformational changes
+11:53.1 that you can measure, as shown here,
+11:56.0 you can use single molecule FRET
+11:58.3 also to measure intermolecular changes,
+12:02.1 interactions between two different molecules.
+12:05.3 You can put a green dye on a protein
+12:08.3 moving on the DNA lattice,
+12:12.2 let's say, powered by ATP,
+12:14.2 and then put the red dye at the destination end of the DNA,
+12:20.1 then as time goes on,
+12:21.3 as the protein approaches the red fluorescent molecule,
+12:25.2 FRET increases and you'll see green signal going down
+12:29.1 and red signal going up.
+12:33.1 So, this is the idea behind using FRET to measure
+12:36.1 movements between two molecules.
+12:39.0 This animation is not the actual data,
+12:41.2 it's what I prepared using a PowerPoint,
+12:46.1 but our data is not that bad, it's almost as pretty.
+12:49.0 So, here's an example where single molecule data
+12:52.2 show that green and red intensities go up and down,
+12:55.1 you know, green goes down initially, red goes up initially,
+12:58.0 as shown in the cartoon.
+13:00.1 The surprising observation here was that,
+13:03.1 instead of falling off at the end of the DNA track,
+13:06.2 when the molecule reaches the end of the DNA track,
+13:09.3 it somehow reappears at the beginning of the track
+13:13.3 and goes back to a low FRET value very quickly,
+13:17.2 and then it then shows this gradual increase in FRET
+13:22.2 and then repeats this process many, many times.
+13:27.2 So, we have done a lot of different measurements
+13:29.3 to understand the physical basis for this phenomenon
+13:34.2 and how the molecule is able to perform
+13:38.0 such acrobatic activities,
+13:40.2 and also to deduce how this type of interesting,
+13:46.0 you know, repetitive movements
+13:48.2 can be useful for biological functions of the molecule.
+13:52.3 So, after many months of research of this kind,
+13:56.1 we eventually asked a magazine
+14:01.2 to publish our research,
+14:05.3 and after a usual back and forth
+14:09.0 they eventually agreed to publish the study.
+14:11.0 So... and then we asked an artist to,
+14:15.1 you know, make a cover illustration
+14:18.2 to suggest how, you know,
+14:21.2 this enzyme may be performing the function.
+14:23.2 So here's an example:
+14:25.2 we proposed that this protein can sit on the DNA
+14:28.2 and then reel in the single-stranded DNA
+14:32.0 using the ATP-powered movement,
+14:34.1 and then remove proteins bound to the DNA
+14:36.3 to clear the DNA of unwanted proteins.
+14:41.1 Well, we submitted this illustration to the magazine,
+14:46.2 hoping that they would show it on the cover,
+14:48.3 but unfortunately they just said, "No,"
+14:52.1 and instead they showed a picture of a diabetic mouse,
+14:55.3 and, well, that's fine...
+14:59.1 you win some, but, you know, lose some,
+15:02.1 so we just move on.
+15:04.0 Here's another illustration that we paid an artist to create...
+15:08.1 same idea, now we have a superhero,
+15:10.3 my student Jeehae Park, who did the work,
+15:14.0 sitting on the DNA and reeling in the DNA,
+15:16.2 and removing asteroids bound to the DNA
+15:19.0 using a powerful motor function.
+15:21.3 Again, the magazine did not pick this cover either,
+15:24.2 so I have to, you know,
+15:26.2 use these images whenever I give public lectures.
+15:32.3 Alright, so let me show you some real data
+15:35.3 using DNA repair as an example.
+15:42.2 As you know, DNA is an important genetic material
+15:46.2 required to make proteins,
+15:50.3 and proteins are the actual players
+15:53.1 of the living cells in our body,
+15:56.3 but DNA is under constant threat of damaging reagents.
+16:00.2 If you smoke or if you go out to the sun in California,
+16:04.2 then your DNA gets damaged
+16:07.1 because of the smoke and also sunlight,
+16:10.0 and DNA damage can cause
+16:15.3 aging or cancer or other genetic disorders.
+16:19.0 I see that I'm getting older every time I look at myself in the mirror,
+16:23.2 so this is an important topic for me as well.
+16:30.2 Do you know how much DNA you make in your lifetime?
+16:35.1 It turns out that,
+16:38.1 in your own body at this moment,
+16:39.2 you have about 100 trillion cells,
+16:46.0 and each cell contains about 2 meters of DNA,
+16:50.0 and during your lifetime you,
+16:52.3 you know, regenerate the cells
+16:55.3 about 100 times on average.
+16:57.1 So, if you connect all of the DNA molecules
+16:59.2 that you produce back-to-back,
+17:02.2 it can actually span a distance of one light year.
+17:07.0 One light year is not a unit of time,
+17:10.0 it's a unit of distance,
+17:11.2 it's how far the light travels in one year,
+17:14.2 so it's an enormous, actually, distance
+17:17.1 and you have to make a lot of DNA.
+17:19.3 And each cell in the body
+17:22.3 can produce more than 1000 damages
+17:27.2 even in a single day,
+17:30.0 so unless you are able to repair the damages efficiently
+17:32.1 you can inevitably accumulate
+17:36.0 enough DNA damage to cause cancer.
+17:38.1 You know, without proper DNA damage repair,
+17:41.1 you'll actually get cancer at a much younger age.
+17:47.1 So, there are several ways
+17:50.0 to repair DNA damage,
+17:52.1 and one is called mismatch repair,
+17:54.3 another is called nucleotide excision repair.
+17:57.2 Today, I'm going to tell you briefly about
+18:00.0 a repair process called
+18:04.1 homologous recombination.
+18:08.1 Homologous recombination is
+18:10.3 about as close as you can get to having sex,
+18:14.3 if DNA can have sex.
+18:18.0 So, there's a DNA and you have,
+18:20.1 you know, DNA damage
+18:22.2 causing a break in the middle of the DNA,
+18:24.0 producing what's called a double-strand break.
+18:28.1 Then, the cell has machineries to
+18:31.3 digest one of the two strands of DNA
+18:34.2 to produce single-stranded DNA,
+18:38.1 and that single strand then finds a matching sequence,
+18:42.2 you know, another copy of the same DNA inside the cell,
+18:45.1 called homologous DNA.
+18:47.0 And then once you find the matching copy
+18:49.1 then you can use the information stored
+18:51.2 in the other copy
+18:53.2 to reproduce the original DNA without any mistakes.
+18:59.2 This process requires a protein called RecA
+19:04.3 to form a filament around single-stranded DNA,
+19:10.1 and this is for bacterial cells,
+19:13.2 and for humans we have its own counterpart
+19:16.1 called RAD51.
+19:19.2 Now, this RecA filament formed on a DNA sequence
+19:23.0 has to find the matching sequence
+19:26.1 in the sea of millions of different base pairs,
+19:29.2 even in a small E. coli bacterium,
+19:34.1 so, you know, this is equivalent to finding a soulmate,
+19:37.1 your future husband,
+19:41.2 you know, when you have millions of people
+19:44.2 living in New York City, for example.
+19:48.1 How do you actually achieve that?
+19:50.1 More like finding a needle in a haystack.
+19:56.1 One mechanism that has been proposed is called the 3D search.
+20:01.0 Here, the filament is diffusing in solution
+20:05.0 and then it randomly collides with the DNA
+20:08.0 at random locations.
+20:10.0 Unless it has a perfect match of sequence,
+20:14.1 it dissociates quickly
+20:17.1 and then goes to look for another sequence,
+20:22.1 and this is more like dating a random person on the street
+20:26.2 to find your soulmate,
+20:30.1 and if you have a lot of actually
+20:33.0 competing potential partners,
+20:37.0 this can take a long time.
+20:39.0 In this animation, I got tired,
+20:40.1 so I just stopped it in the middle, so...
+20:45.1 the filament found the correct target,
+20:47.2 but you can imagine that if you millions of possibilities
+20:50.2 it's going to take a long time.
+20:54.2 Another possibility is called 1D sliding,
+20:58.2 and this is equivalent to joining a book club.
+21:02.1 So, instead of dating a random person on the street,
+21:05.1 you join a club to meet people
+21:09.0 who share a common interest,
+21:10.2 and then you can date maybe 20 people within the club
+21:13.2 to see whether you have a good fit,
+21:16.0 and if you don't find the perfect match
+21:19.2 then you can join a different club,
+21:21.3 like a knitting club,
+21:23.2 and then do the sampling again.
+21:26.0 So, here's an illustration:
+21:29.2 the single-stranded filament can bind
+21:33.2 and then slide on the DNA, 1D sliding,
+21:35.1 to sample, you know, 200 or 300 base pairs
+21:38.0 before falling off,
+21:39.2 so you can actually sample multiple potential partners
+21:42.2 in one binding event,
+21:44.1 and this can make the process much, much faster.
+21:51.2 So, we perform single-molecule FRET measurements
+21:55.0 of the process
+21:57.2 by putting a green dye on the filament itself,
+22:02.2 and the red dye on the DNA.
+22:07.0 In this experiment,
+22:10.1 DNA, target DNA,
+22:12.0 actually does not have the matching sequence,
+22:13.2 so the filament will still bind to the DNA
+22:17.3 and then show sliding motion,
+22:20.3 and that sliding motion,
+22:22.3 if it indeed occurs,
+22:25.1 then it will be visualized as fluctuations in,
+22:29.1 you know, single-molecule FRET,
+22:32.0 where green and red intensities go up and down
+22:35.0 in an anti-correlated manner, very rapidly.
+22:38.0 And this is the actual signal that we see
+22:40.1 from single molecules,
+22:41.3 indeed showing that RecA filament
+22:46.3 can slide on the DNA,
+22:49.0 possibly in search of a target sequence.
+22:52.0 So that was really, really exciting,
+22:54.1 but does it really
+22:59.2 find the matching sequence while sliding?
+23:04.0 So, we performed another experiment, shown here.
+23:10.1 So, we designed a DNA sequence
+23:12.1 that contains a matching sequence
+23:14.1 for the filament DNA,
+23:20.1 but the sequence is not very long,
+23:23.3 it's only seven base pairs long,
+23:25.3 so it's not a perfect match,
+23:28.2 so it's as if, you know, you...
+23:31.2 you find a near match,
+23:34.2 but here in this case we put
+23:36.3 two copies of the same near match.
+23:39.2 So, you know, again,
+23:42.1 to use that example of dating,
+23:44.2 you may be dating twin brothers, okay?
+23:48.0 Well, both are near matches,
+23:50.2 but you spend some time with one of the two twin brothers,
+23:53.3 but the match is not perfect,
+23:56.0 so you slide off to the other twin brother,
+24:00.2 and that's why you see
+24:03.0 a change in FRET efficiency,
+24:04.2 shown on the top,
+24:06.0 and then you then leave the other brother
+24:08.1 and you go back to the original brother
+24:10.1 and so on.
+24:11.1 So, this data showed
+24:14.0 very clearly
+24:16.1 that the sliding on the same DNA
+24:18.2 can be used to sample
+24:24.0 different sequences in search of
+24:26.3 a matching sequence.
+24:28.3 So, overall, data of this type
+24:31.2 showed us that 1D sliding
+24:34.2 can make the target search process,
+24:37.0 you know, 250 times faster than 3D search,
+24:41.2 and in principle this sliding activity
+24:46.0 that we discovered in this study,
+24:47.2 you know, can make DNA repair
+24:50.3 that much faster.
+24:53.1 Okay, so I have told you about how
+24:55.3 single molecule fluorescence imaging,
+24:57.1 tracking of single fluorescent molecules
+24:59.2 and measuring the interaction between
+25:02.2 two different molecules
+25:04.2 to, you know, to measure
+25:07.0 the activities of single protein molecules
+25:11.2 in real time.
+25:13.3 There is another technology
+25:16.3 that is extremely popular in the single molecule biophysics community.
+25:19.2 It is called the optical trap
+25:22.0 or optical tweezers technology.
+25:24.0 If you want, this can be viewed as
+25:26.0 chopsticks made of light.
+25:28.1 So, you can use a tightly focused laser light
+25:33.2 to grab a single particle in solution
+25:40.3 and then if you move the laser beam around back and forth
+25:44.0 you can move the particle,
+25:46.1 and if the other end of the DNA
+25:48.2 linking the particle to the surface
+25:51.1 is an enzyme that is transcribing the DNA
+25:54.2 -- RNA polymerase --
+25:56.2 then the distance between the particle and the enzyme
+26:01.1 will change, it will become shorter and shorter,
+26:03.2 and you can measure this with Angstrom-level precision,
+26:07.2 and you can apply forces that are relevant
+26:11.0 to physiological conditions
+26:13.1 and measure the mechanical response very precisely.
+26:16.2 So, my laboratory and many others
+26:22.1 have decided to combine these two different technologies,
+26:26.3 single-molecule FRET and the optical trap,
+26:29.3 so that you can use fluorescence
+26:32.1 to measure conformational changes of a single molecule,
+26:35.2 but use the optical trap to apply
+26:38.2 a defined level of force
+26:40.3 and understand how the tension, or force applied,
+26:44.1 can change the activities of a single molecule.
+26:51.1 And this is equivalent to
+26:55.1 combining two different features of these measurements:
+26:58.2 in the optical trap measurements,
+27:00.2 you are using your hands to
+27:03.2 manipulate a single molecule
+27:05.2 and measure its response mechanically,
+27:08.0 but with your eyes closed;
+27:10.2 but in the FRET measurement,
+27:13.2 you are using your eyes to make observations,
+27:16.1 passive observations,
+27:18.1 with your hands tied in the back.
+27:20.3 By combining the two,
+27:23.1 we can actually hope to sample
+27:25.1 the best of both worlds
+27:27.1 and this is going to be the topic of my second talk.
+27:34.1 Alright, so I'd like to acknowledge
+27:37.2 my former and present colleagues
+27:40.1 and collaborators.
+27:41.2 We collaborated with Yale Goldman's lab
+27:43.2 and Paul Selvin's lab
+27:45.1 on the myosin V studies.
+27:47.1 And Kaushik Ragunathan, Chen Liu,
+27:50.1 and Chirlmin Joo, and Jeehae Park,
+27:53.0 and Sua Myong
+27:54.3 worked on many of the
+27:59.0 single molecule FRET studies I told you about.
+28:00.1 And Ahmet Yildiz and Sean McKinney
+28:03.1 worked on the
+28:06.3 tracking of a myosin V molecule.
+28:10.3 Thank you very much.

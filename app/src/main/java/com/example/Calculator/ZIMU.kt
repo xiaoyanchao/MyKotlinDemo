@@ -7,33 +7,42 @@ import java.util.*
 
 fun main() {
     var result = ""
-    var oldTime = "00:00:00.00"
+    var oldTime = "00:00:0"
     var newTime = ""
-    var list = mutableListOf<String>()
-    list = File("/Users/forms/AndroidStudioProjects/MyKotlinDemo20220721/app/src/main/assets/demo.txt").readLines() as MutableList<String>
+    val list = File("/Users/forms/AndroidStudioProjects/MyKotlinDemo20220721/app/src/main/assets/demo.txt").readLines() as MutableList<String>
 
-//    list = data.split("\n") as MutableList<String>
-//    第一步
-    for ((index,e) in list.withIndex()){
-        if (e.length >11){
-            newTime = e.substring(0, 11)
-            result = "$oldTime --> $newTime"
-            result = "$result\n${e.substring(12, e.length)}"
-
+    for ((index, e) in list.withIndex()) {
+        if (e.length > 7) {
+            newTime = e.substring(0, 7)
+            if (index != 0) {
+                val changeString = oldTime.replace(":", ".")
+                val substringBefore = oldTime.substring(0, 3)
+                val substringAfter = changeString.substring(3, changeString.length).toDouble()
+                var lastValue = ""
+                lastValue = if (substringAfter.toString().length <= 3) {
+                    substringBefore + "0" + (substringAfter.toBigDecimal() + 0.1.toBigDecimal()).toString()
+                } else {
+                    substringBefore + (substringAfter.toBigDecimal() + 0.1.toBigDecimal()).toString()
+                }
+                result = "$lastValue --> $newTime"
+            } else {
+                result = "$oldTime --> $newTime"
+            }
+            result = "$result\n${e.substring(8, e.length)}\n"
             oldTime = newTime
             println(result)
         }
     }
 
-////第二步
-//    val list = mutableListOf<String>()
-//    for ((index, e) in stringArray.withIndex()) {
-//        val ddd = "${e}\nxyc"
-//        list.add(ddd)
-//        if (index % 2 == 0 && index > 0) {
-//            val ccc = "${stringArray[index]}\nxyc"
-//            list[index - 2] = ccc
-//        }
-//    }
-//    print(list.toString().replace("[","").replace("]","").replace("xyc, ", ""))
+    ////第二步
+    //    val list = mutableListOf<String>()
+    //    for ((index, e) in stringArray.withIndex()) {
+    //        val ddd = "${e}\nxyc"
+    //        list.add(ddd)
+    //        if (index % 2 == 0 && index > 0) {
+    //            val ccc = "${stringArray[index]}\nxyc"
+    //            list[index - 2] = ccc
+    //        }
+    //    }
+    //    print(list.toString().replace("[","").replace("]","").replace("xyc, ", ""))
 }
